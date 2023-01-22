@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import EachProduct from './EachProduct';
 
 
 const products =[
@@ -34,21 +33,11 @@ const products =[
   {title : "Powerbank", image : "/images/14.jpg", price : 2500, discountPrice : "20%", description : "Discover power banks online at Jumia Nigeria | Large selection of reliable power banks & accessories from top brands: Tecno, Samsung, New Age"},
 ]
 
- function Home (){
+function Home(){
   return(
-    <>
-    {products.map((value,index) => {
-      return <EachProduct {...value}/>
-    })}
-    </>
-    
-    // <div style={container_style}>
-    //   <img src='/images/12.jpg' alt='12.jpg' style={imgstyle}/>
-    //   <h4> Product Name: kamil{} </h4>
-    //   <h6> Price:123, discountPrice : "20%", description : ""{} </h6>
-    // </div>
+    <div>
+    </div>
   )
-
- }
+}
  
  export default Home;
